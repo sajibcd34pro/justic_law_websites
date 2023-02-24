@@ -10,12 +10,13 @@
     color:#fff
 }
 
-footer button{
+footer button {
     display: block;
     border: 0 !important;
     background-color: #B68C5A !important;
     padding:20px 30px !important;
     margin: 5px !important;
+    color:#F3F3F3
 }
 footer{
     background:#111111;
@@ -30,4 +31,26 @@ footer input{
 .send{
     height: 30px;
     
+}
+.contact .card {
+    background-color: #F3F3F3;
+}
+
+.contact .common{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 72px;
+}
+.contact input{
+    margin-bottom: 30px;
+    border:0;
+    border-radius: 10px;
+}
+.contact input::placeholder{
+    padding-left: 30px;
+}
+.message{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 162px;
 }
