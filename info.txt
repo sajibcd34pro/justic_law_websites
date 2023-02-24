@@ -1,0 +1,13 @@
+task:
+follow the figma file :
+1. must be use a framework
+bonus:
+1. use a modal
+2. give the answer of an accordion
+*Q. What is difference between flex box & grid
+* what is purpose of media querries?
+* what is css box model & how does it work
+* what is semantic tag?
+
+optional: 
+try to add a meanigful by your own
