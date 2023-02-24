@@ -1,4 +1,6 @@
 .banner-info h1,.banner-info p{
  color: #fff;
 }
-
+.carousel-item h5, .carousel-item p{
+    color:#fff
+}
