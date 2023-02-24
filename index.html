@@ -35,7 +35,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Blog
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -43,14 +43,17 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#">Contact US</a>
         </li>
+        </li>
+        
       </ul>
       <form class="d-flex">
         
-        <button class="btn btn-outline-success rounded" type="submit" style="background:#B68C5A; color:#fff">Free Consultation</button>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#consult-modal" style="background:#B68C5A; color:#fff">
+          Free Consultation
+        </button>
       </form>
     </div>
 
@@ -194,6 +197,7 @@
             <img src="images/slider-1.jpg" class="d-block w-100 img-thumbnail" alt="slider1" style="height:70vh;">
             <div class="carousel-caption d-none d-md-block" style="position:absolute; bottom: 30%;">
                 <h5>Awlad Hossain</h5>
+                <h6 style="color:#fff">Ux-Designer</h6>
                 <img class="img-fluid" src="images/profile2.png" alt="" style="height:100px;width: 100px; border-radius: 50%;">
                 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
                   literature
@@ -206,6 +210,7 @@
             <img src="images/slider-2.jpg" class="d-block w-100 img-thumbnail" alt="slider2" style="height:70vh;">
             <div class="carousel-caption slider-cap d-none d-md-block" style="position:absolute; bottom: 30%">
               <h5>Awlad Hossain</h5>
+              <h6 style="color:#fff">Web-Designer</h6>
               <img class="img-fluid" src="images/profile2.png" alt="" style="height:100px;width: 100px; border-radius: 50%;">
               <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
               from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
@@ -216,6 +221,7 @@
             <img src="images/slider-3.jpg" class="d-block w-100 img-thumbnail" alt="slider3" style="height:70vh;">
             <div class="carousel-caption d-none d-md-block" style="position:absolute; bottom: 30%">
             <h5>Awlad Hossain</h5>
+            <h6 style="color:#fff">Backend Developer</h6>
             <img class="img-fluid" src="images/profile2.png" alt="" style="height:100px;width: 100px; border-radius: 50%;">
             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
               literature
@@ -328,6 +334,43 @@
     </section>
     <!-- frequently ask question -->
 </main>
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="consult-modal" tabindex="-1" aria-labelledby="consult-modal-label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="consult-modal-label">Consult Our Lawyers</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Please fill out the form below to schedule a consultation with one of our experienced lawyers:</p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <footer>
