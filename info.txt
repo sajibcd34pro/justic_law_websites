@@ -4,10 +4,10 @@ follow the figma file :
 bonus:
 1. use a modal
 2. give the answer of an accordion
-*Q. What is difference between flex box & grid
-* what is purpose of media querries?
-* what is css box model & how does it work
-* what is semantic tag?
+*Q. What is the difference between a Flex-box & grid?
+* what is the purpose of media queries?
+* what is the Css box model & how does it work?
+* what is a semantic tag?
 
 optional: 
 try to add a meanigful by your own
